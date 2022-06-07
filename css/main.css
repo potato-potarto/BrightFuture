@@ -1,4 +1,9 @@
 @import url("./nav.css");
+@import url("./grid.css");
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: rgba(243, 216, 142, 0.458);
@@ -58,6 +63,13 @@ body {
     background-color: light blue;
     color: black;
     cursor: pointer;
+}
+  
+main {
+  max-width: 920px;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
