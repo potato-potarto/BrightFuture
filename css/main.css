@@ -72,6 +72,11 @@ main {
   padding: 10px;
 }
 
+.guidetext {
+    margin-left: 22px;
+    line-height: 1.5em;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: rgba(243, 216, 142, 0.458);
