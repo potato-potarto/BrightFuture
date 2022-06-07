@@ -3,16 +3,17 @@
     background-color: #333;
 }
 
-.topnav li{
+.topnav li {
     list-style: none;
 }
 
-.topnav li.active{
+.topnav li.active {
     font-weight: 600;
 }
 
-.topnav li.active a{
+.topnav li.active a {
     background: deepskyblue;
+    color: #333;
 }
 
 .topnav a {
@@ -24,12 +25,6 @@
     font-size: 17px;
 }
 
-.topnav a:hover {
-    background-color: light blue;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+.topnav a:focus-visible {
+    background-color: rgba(0, 191, 255, 0.48);
 }
