@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    position: relative;
+    width: 100%;
 }
 
 @media screen and (min-width: 540px) {
@@ -16,9 +18,17 @@
     }
 }
 
-.grid div {
-    background-color: red;
+.grid a {
     width: 100%;
-    aspect-ratio: 16 / 9;
     display: block;
+}
+
+.grid a img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: 0 0 6px -3px rgba(0,0,0,0.4);
 }
