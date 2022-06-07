@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 540px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.grid div {
+    background-color: red;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+}
